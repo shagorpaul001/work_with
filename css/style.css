@@ -1,0 +1,109 @@
+/* google link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* common css start */
+    body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+    }
+    .cm_title{
+    text-align: center;
+    }
+    .cm_pipe{
+        margin: 0 auto;
+        width: 2px;
+        height: 50px;
+        background-color: #333333;
+    }
+    .cm_h1{
+        margin: 30px 0 0;
+        font-family: lato-regular;
+        font-size: 30px;
+        font-weight: 400;
+        color: #333333;
+        text-transform: uppercase;
+}
+/* common css end */
+
+
+/*With Us start*/
+.team {
+    background-image: url(../img/work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 100px;
+}
+
+.s_team{
+    margin-top: 100px;
+    position: relative;
+    background-color: white;
+    border: 1px solid #8e8e8e;
+    border-radius: 2px;
+}
+
+.tperson_img img{}
+.tperson_content{
+    padding: 16px 0 16px 30px;
+}
+.s_teamh2{
+    margin-bottom: 15px;
+    font-family: lato-bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.s_teamh3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+.tperson_img{
+    transition: .33s ease;
+    cursor: pointer;
+}
+.teamsocial{
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    transition: .33s cubic-bezier(0.25, 0.1, 0.49, 0.89);
+}
+.tperson_img:hover .teamsocial {
+    opacity: 1;
+}
+.teamsocial ul{}
+.teamsocial ul li{
+    background: transparent;
+    border-right: 1px solid transparent;
+    transition: .3s ease;
+}
+.teamsocial ul li:hover{
+    background: #8e8e8e69;
+    border-right: 1px solid #333333;
+}
+.teamsocial ul li a{}
+.teamsocial ul li a i{
+    padding: 8px 6px;
+    font-size: 24px;
+    color: #8e8e8e;
+    transition: .3s ease;
+}
+.teamsocial ul li a i:hover{
+    color: #333333;
+}
+
+/*With Us end*/

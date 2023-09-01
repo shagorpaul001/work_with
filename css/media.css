@@ -1,0 +1,74 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*common coding start*/
+    .cm_pipe {
+        height: 36px;
+    }
+    .cm_h1 {
+        margin: 24px 0 0;
+        font-size: 24px;
+    }
+    /* with us start */
+        .s_team {
+            margin-top: 20px;
+        }
+   
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*common coding start*/
+    .cm_pipe {
+        height: 40px;
+    }
+    .cm_h1 {
+        margin: 26px 0 0;
+        font-size: 26px;
+    }
+
+    
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*common coding start*/
+    .cm_pipe {
+        height: 40px;
+    }
+    .cm_h1 {
+        margin: 26px 0 0;
+        font-size: 26px;
+    }
+    /* with us start */
+    .s_team {
+        margin-top: 27px;
+    }
+
+    
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* with us start */
+    .s_teamh2 {
+        font-size: 15px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+
+
+}
